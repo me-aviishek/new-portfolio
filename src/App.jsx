@@ -27,7 +27,7 @@ function App() {
               <div className=" flex mt-5  bg-[#2B2B2C] p-2 rounded-xl shadow-slate-900 shadow-sm">
               <a href="https://www.instagram.com/me_aviishek"> <FaInstagram size="23px" color="CA8A04"  className="mx-2 transition-all duration-300 hover:scale-125" /></a> 
              <a href="mailto:meaviishek@gmail.com"><MdMarkEmailUnread size="23px" color="CA8A04" className="mx-2 transition-all duration-300 hover:scale-125"/></a> 
-             <a href="https://github.com/Meeaviishek">   <FaGithub size="23px" color="CA8A04" className="mx-2 transition-all duration-300 hover:scale-125"/></a> 
+             <a href="https://github.com/meaviishek">   <FaGithub size="23px" color="CA8A04" className="mx-2 transition-all duration-300 hover:scale-125"/></a> 
              <a href="https://linkedin.com/in/meaviishek"><FaLinkedinIn size="23px" color="#CA8A04" className="mx-2 transition-all duration-300 hover:scale-125"/></a> 
              <a href="https://twitter.com/meaviishek"> <FaXTwitter size="23px" color="#CA8A04" className="mx-2 transition-all duration-300 hover:scale-125"/></a> 
              < a href="https://wa.link/qyx09o"> <FaWhatsapp size="23px" color="#CA8A04" className="mx-2 transition-all duration-300 hover:scale-125"/></a> 
