@@ -69,16 +69,16 @@ function App() {
               <div className="flex justify-between items-center font-semibold border-b border-[#2B2B2C] pb-4 mb-4">
                
                 <nav>
-                  <NavLink to='/'  className={({isActive})=>`mx-2 md:mx-4 ${isActive? 'text-yellow-600 bg-[#2B2B2C] shadow-md p-2 rounded-lg':'hover:text-[#a2a1a1] text-[#dcdbdb]'} `}>
+                  <NavLink to='/'  className={({isActive})=>`mx-[11px] md:mx-4 ${isActive? 'text-yellow-600 bg-[#2B2B2C] shadow-md p-2 rounded-lg':'hover:text-[#a2a1a1] text-[#dcdbdb]'} `}>
                     About
                   </NavLink>
-                  <NavLink to='/project'  className={({isActive})=>`mx-2 md:mx-4 ${isActive? 'text-yellow-600 bg-[#2B2B2C] shadow-md p-2 rounded-lg':'hover:text-[#a2a1a1] text-[#dcdbdb]'} `}>
+                  <NavLink to='/project'  className={({isActive})=>`mx-[11px] md:mx-4 ${isActive? 'text-yellow-600 bg-[#2B2B2C] shadow-md p-2 rounded-lg':'hover:text-[#a2a1a1] text-[#dcdbdb]'} `}>
                     Projects
                   </NavLink>
-                  <NavLink to='/services' className={({isActive})=>`mx-2 md:mx-4 ${isActive? 'text-yellow-600 bg-[#2B2B2C] shadow-md p-2 rounded-lg':'hover:text-[#a2a1a1] text-[#dcdbdb]'} `}>
+                  <NavLink to='/services' className={({isActive})=>`mx-[11px] md:mx-4 ${isActive? 'text-yellow-600 bg-[#2B2B2C] shadow-md p-2 rounded-lg':'hover:text-[#a2a1a1] text-[#dcdbdb]'} `}>
                     Services
                   </NavLink>
-                  <NavLink to='/skills' className={({isActive})=>`mx-2 md:mx-4 ${isActive? 'text-yellow-600 bg-[#2B2B2C] shadow-md p-2 rounded-lg':'hover:text-[#a2a1a1] text-[#dcdbdb]'} `}>
+                  <NavLink to='/skills' className={({isActive})=>`mx-[11px] md:mx-4 ${isActive? 'text-yellow-600 bg-[#2B2B2C] shadow-md p-2 rounded-lg':'hover:text-[#a2a1a1] text-[#dcdbdb]'} `}>
                     Skills
                   </NavLink>
                   
