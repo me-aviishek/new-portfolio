@@ -35,7 +35,7 @@ function Project() {
         <div className="flex flex-col gap-y-1">
           <h4 className="text-xl font-bold  lg:text-left">Portfolio Website<h5 className="text-sm text-[#5f5f5f]">Web development</h5>
           </h4>
-          <p className="text-black dark:text-[#c4c2c2] text-[15px] lg:text-justify">It is my first website after learning fundamentals of web development. My portfolio website is a showcase of my skills and abilities as a web developer. It is built using HTML, TailwindCSS, React and JavaScript. Designed and implemented bespoke animations to add flair and personality to the user interface, making interactions memorable and delightful.</p>
+          <p className="text-black dark:text-[#c4c2c2] text-[15px] lg:text-justify">I created my portfolio using Tailwind, HTML, and React.js, incorporating animations to enhance user experience. This project showcases my skills and projects, reflecting my expertise in web development and design.</p>
           
         </div>
       </div>
@@ -48,7 +48,7 @@ function Project() {
         <div className="flex flex-col gap-y-1">
           <h4 className="text-xl font-bold  lg:text-left">Lusi Beauty<h5 className="text-sm text-[#5f5f5f]">Web development</h5>
           </h4>
-          <p className="text-black dark:text-[#c4c2c2] text-[15px] lg:text-justify">Created a React.js website for my mother's beauty and tailor shop, using HTML and Tailwind CSS for design. Integrated Auth0 for secure authentication. This project showcases my skills in web development, UI/UX design, and implementing secure authentication solutions.</p>
+          <p className="text-black dark:text-[#c4c2c2] text-[15px] lg:text-justify">I created a website for my mother's beauty and tailoring shop using React, Tailwind, and Auth0 for authentication. The frontend is complete, and I am currently developing the backend. This platform aims to enhance her business's online presence and streamline customer interactions.</p>
           
           
         </div>
