@@ -5,7 +5,8 @@ import Skills from "./Skills";
 import Project from "./Project";
 import Services from "./Services";
 import port from "../assets/port.png";
-import lusi from "../assets/lusi.png"
+import lusi from "../assets/lusi.png";
+import infl from "../assets/infl.png"
 export{
   About,
   profile,
@@ -13,5 +14,6 @@ export{
   Project,
   Services,
   port,
-  lusi
+  lusi,
+  infl
 }

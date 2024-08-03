@@ -1,7 +1,7 @@
 import { motion, useAnimation } from "framer-motion";
 
 import { useInView } from "react-intersection-observer";
-import {port,lusi} from "./index"
+import {port,lusi,infl} from "./index"
 
 
 const boxVariant = {
@@ -60,7 +60,7 @@ function Project() {
     <div 
       className="bg-gradient-to-br  dark:from-[#272728] dark:to-[#323232] border border-[#353535] rounded-xl w-fit mx-auto flex flex-col justify-center gap-y-2 shadow-md shadow-[#161616] hover:scale-105 translate-all duration-300">
       <div className="w-full flex flex-col justify-between gap-y-3 max-w-[20rem] mx-auto p-3 rounded-xl">
-        <img className="rounded-[calc(20px-12px)] rounded-b-none hover:scale-105 translate-all duration-300" loading="lazy" src={lusi} alt="Professional UI/UX Design Service" style={{width: "100%;", height:" 250px;"}} />
+        <img className="rounded-[calc(20px-12px)] rounded-b-none hover:scale-105 translate-all duration-300" loading="lazy" src={infl} alt="Professional UI/UX Design Service" style={{width: "100%;", height:" 250px;"}} />
         <div className="flex flex-col gap-y-1">
           <h4 className="text-xl font-bold  lg:text-left">Influencer Engagement & Sponsorship Co-ordination Platform <h5 className="text-sm text-[#5f5f5f]">Web development</h5>
           </h4>
