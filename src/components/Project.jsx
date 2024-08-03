@@ -35,7 +35,7 @@ function Project() {
         <div className="flex flex-col gap-y-1">
           <h4 className="text-xl font-bold  lg:text-left">Portfolio Website<h5 className="text-sm text-[#5f5f5f]">Web development</h5>
           </h4>
-          <p className="text-black dark:text-[#c4c2c2] text-[15px] lg:text-justify">I created my portfolio using Tailwind, HTML, and React.js, incorporating engaging animations to enhance the user experience. This portfolio showcases my web development and design skills, featuring various projects and accomplishments. Each section is thoughtfully designed to highlight my expertise in front-end technologies, demonstrating my ability to create visually appealing and functional websites. The animations add a dynamic touch, making the portfolio interactive and enjoyable to navigate. This project not only represents my technical abilities but also my creativity and attention to detail in web design.</p>
+          <p className="text-black dark:text-[#c4c2c2] text-[15px] lg:text-justify">I created my portfolio using Tailwind, HTML, and React.js, incorporating animations to enhance the user experience. This project highlights my skills and projects, demonstrating my proficiency in modern web development technologies and design principles. The use of Tailwind ensures a responsive and visually appealing layout, while React.js provides a dynamic and interactive interface. The animations add a polished touch, making the portfolio engaging and professional.</p>
           
         </div>
       </div>
