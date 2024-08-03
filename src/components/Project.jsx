@@ -62,7 +62,7 @@ function Project() {
       <div className="w-full flex flex-col justify-between gap-y-3 max-w-[20rem] mx-auto p-3 rounded-xl">
         <img className="rounded-[calc(20px-12px)] rounded-b-none hover:scale-105 translate-all duration-300" loading="lazy" src={infl} alt="Professional UI/UX Design Service" style={{width: "100%;", height:" 250px;"}} />
         <div className="flex flex-col gap-y-1">
-          <h4 className="text-xl font-bold  lg:text-left">Influencer Engagement & Sponsorship Co-ordination Platform <h5 className="text-sm text-[#5f5f5f]">Web development</h5>
+          <h4 className="text-xl font-bold  lg:text-left">Influencer & Sponsorship Co-ordination Platform <h5 className="text-sm text-[#5f5f5f]">Web development</h5>
           </h4>
           <p className="text-black dark:text-[#c4c2c2] text-[15px] lg:text-justify">I developed an Influencer Engagement & Sponsorship Coordination Platform as part of my IITM BS degree project. This web-based application leverages Flask for backend development, SQLite for database management, Tailwind for CSS styling, Jinja for templating, and HTML for structuring content. The platform facilitates seamless interaction between influencers and sponsors, enabling efficient collaboration and coordination.</p>
           
