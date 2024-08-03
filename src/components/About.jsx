@@ -19,7 +19,7 @@ function About() {
       }
     }}
     viewport={{ once: true }}   >
-    <p className="text-lg text-[#c4c2c2] text-justify">
+    <p className=" text-sm md:text-lg text-[#c4c2c2] text-justify">
     I am a passionate individual currently immersed in the world of data science and full-stack web development. Currently pursuing my education in Data Science(Bsc) at IIT Madras. My journey also includes a deep dive into the realm of competitive programming, where I constantly challenge myself to solve complex problems and enhance my problem-solving skills.
 <br/><br/>
 In addition to my technical pursuits, I bring a creative flair to my endeavors. I am not only fascinated by the logical intricacies of coding but also drawn to the aesthetic side of things. With a keen interest in designing and art, I believe in the harmonious fusion of functionality and aesthetics in every project.
