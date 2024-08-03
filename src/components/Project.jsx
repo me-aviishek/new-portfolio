@@ -35,7 +35,7 @@ function Project() {
         <div className="flex flex-col gap-y-1">
           <h4 className="text-xl font-bold  lg:text-left">Portfolio Website<h5 className="text-sm text-[#5f5f5f]">Web development</h5>
           </h4>
-          <p className="text-black dark:text-[#c4c2c2] text-[15px] lg:text-justify">I created my portfolio using Tailwind, HTML, and React.js, incorporating animations to enhance user experience. This project showcases my skills and projects, reflecting my expertise in web development and design.</p>
+          <p className="text-black dark:text-[#c4c2c2] text-[15px] lg:text-justify">I created my portfolio using Tailwind, HTML, and React.js, incorporating engaging animations to enhance the user experience. This portfolio showcases my web development and design skills, featuring various projects and accomplishments. Each section is thoughtfully designed to highlight my expertise in front-end technologies, demonstrating my ability to create visually appealing and functional websites. The animations add a dynamic touch, making the portfolio interactive and enjoyable to navigate. This project not only represents my technical abilities but also my creativity and attention to detail in web design.</p>
           
         </div>
       </div>
@@ -48,7 +48,8 @@ function Project() {
         <div className="flex flex-col gap-y-1">
           <h4 className="text-xl font-bold  lg:text-left">Lusi Beauty<h5 className="text-sm text-[#5f5f5f]">Web development</h5>
           </h4>
-          <p className="text-black dark:text-[#c4c2c2] text-[15px] lg:text-justify">I created a website for my mother's beauty and tailoring shop using React, Tailwind, and Auth0 for authentication. The frontend is complete, and I am currently developing the backend. This platform aims to enhance her business's online presence and streamline customer interactions.</p>
+          <p className="text-black dark:text-[#c4c2c2] text-[15px] lg:text-justify">
+          I created a website for my mother's beauty and tailoring shop using React, Tailwind, and Auth0 for secure authentication. The frontend is fully developed, providing a seamless user experience, while the backend is still under development. This project aims to improve her business's online visibility and streamline customer interactions, showcasing my skills in modern web development.</p>
           
           
         </div>
