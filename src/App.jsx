@@ -3,14 +3,15 @@ import{FaXTwitter} from "react-icons/fa6"
 import { MdMarkEmailUnread} from "react-icons/md";
 import{profile} from "./components";
 import { NavLink,Outlet } from "react-router-dom";
-import ReactGA from "react-ga4"
-
+import ReactGA from "react-ga"
+import { useEffect } from "react";
 ReactGA.initialize('G-QJ627ZNWYE');
 
 // Optionally, track the initial page view
 ReactGA.send({ hitType: "pageview", page: window.location.pathname + window.location.search });
 
 function App() {
+
   
   return (
     
@@ -29,7 +30,7 @@ function App() {
               />
               <h1 className="text-xl font-semibold">Abhishek Kumar</h1>
               <p className="text-gray-400 text-xs">Web Developer, Datascience</p>
-              <div className=" flex mt-5  bg-[#2B2B2C] p-2 rounded-xl shadow-slate-900 shadow-sm">
+              <div className=" flex mt-5 h-fit w-auto bg-[#2B2B2C] p-2 rounded-xl shadow-slate-900 shadow-sm">
               <a href="https://www.instagram.com/me_aviishek"> <FaInstagram size="23px" color="CA8A04"  className="mx-2 transition-all duration-300 hover:scale-125" /></a> 
              <a href="mailto:meaviishek@gmail.com"><MdMarkEmailUnread size="23px" color="CA8A04" className="mx-2 transition-all duration-300 hover:scale-125"/></a> 
              <a href="https://github.com/meaviishek">   <FaGithub size="23px" color="CA8A04" className="mx-2 transition-all duration-300 hover:scale-125"/></a> 
@@ -37,6 +38,7 @@ function App() {
              <a href="https://twitter.com/meaviishek"> <FaXTwitter size="23px" color="#CA8A04" className="mx-2 transition-all duration-300 hover:scale-125"/></a> 
              < a href="https://wa.link/qyx09o"> <FaWhatsapp size="23px" color="#CA8A04" className="mx-2 transition-all duration-300 hover:scale-125"/></a> 
               </div>
+            
               <hr className="h-px my-4 w-full border-0 bg-[#2B2B2C]"/> 
                <h1 className="text-[18px] font-semibold font-sans">Skills</h1>
                
