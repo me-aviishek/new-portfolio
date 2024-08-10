@@ -1,18 +1,12 @@
 import { FaInstagram,FaGithub,FaLinkedinIn  ,FaWhatsapp } from "react-icons/fa";
 import{FaXTwitter} from "react-icons/fa6"
-import { MdMarkEmailUnread,useLocation} from "react-icons/md";
+import { MdMarkEmailUnread} from "react-icons/md";
 import{profile} from "./components";
 import { NavLink,Outlet } from "react-router-dom";
-import ReactGA from "react-ga4";
-import { useEffect } from "react";
+
 
 function App() {
-  const location = useLocation();
-
-  useEffect(() => {
-      ReactGA.send({ hitType: "pageview", page: location.pathname + location.search });
-  }, [location]);
-
+  
   return (
     
      <div className=" text-gray-200  flex flex-col   ">
