@@ -3,7 +3,12 @@ import{FaXTwitter} from "react-icons/fa6"
 import { MdMarkEmailUnread} from "react-icons/md";
 import{profile} from "./components";
 import { NavLink,Outlet } from "react-router-dom";
+import ReactGA from "react-ga4"
 
+ReactGA.initialize('G-QJ627ZNWYE');
+
+// Optionally, track the initial page view
+ReactGA.send({ hitType: "pageview", page: window.location.pathname + window.location.search });
 
 function App() {
   
