@@ -5,6 +5,13 @@ import './index.css';
 import {RouterProvider, createBrowserRouter,Route,createRoutesFromElements} from "react-router-dom";
 import {About,Project,Services,Skills} from "./components/index.js";
 import { Analytics } from '@vercel/analytics/react';
+import ReactGA from 'react-ga4';
+
+
+ReactGA.initialize('G-QJ627ZNWYE');
+
+// Optionally, track the initial page view
+ReactGA.send({ hitType: "pageview", page: window.location.pathname + window.location.search });
 
 
 const router=createBrowserRouter(
